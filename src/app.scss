@@ -1,0 +1,32 @@
+$brand: #00b5d4;
+$bgcolor:rgb(34, 34, 34);
+$textcolor: white;
+$padding: 10px;
+
+.container{
+    background-color: $bgcolor;
+    color: $textcolor;
+}
+.mybtn{
+    color: $textcolor;
+    border: solid 1px $textcolor;
+    margin: 10px;
+}
+.mybtn:hover{
+    color: $brand;
+}
+h1{
+    border: solid 1px $textcolor;
+    padding: $padding;
+}
+.lorem{
+    padding: $padding;
+    border: solid 1px $textcolor;
+}
+
+h1:hover{
+    color: $brand;
+}
+.lorem:hover{
+    color: $brand;
+}
